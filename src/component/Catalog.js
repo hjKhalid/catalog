@@ -13,7 +13,7 @@ import ChevronLeft from '@mui/icons-material/ChevronLeft';
 import ChevronRight from '@mui/icons-material/ChevronRight';
 
 
-
+// style theme 
 
 const useStyles = styled((theme) => ({
     container: {
@@ -51,6 +51,7 @@ const useStyles = styled((theme) => ({
     },
 }));
 
+// array of images and their details  
 const images = [
     {
         id: 1,
@@ -83,6 +84,8 @@ const images = [
     // },
     // Add more images as needed
 ];
+
+// catalog function 
 
 const CatalogViewer = () => {
     const classes = useStyles();
